@@ -324,14 +324,15 @@ li {
             height: 45%;
         }
         #about-me{
-            font-size: 1.7em;
+            font-size: 2.5em;
+            padding-top: 5%;
         }
         #about-me-para{
-            font-size: 1.2rem;
+            font-size: 1.5rem;
         }
         .projects{
             width: 100%;
-            height: 90%;
+            height: 95%;
         }
         .contact{
             width: 100%;
