@@ -1,0 +1,240 @@
+* {
+    font-family: Roboto;
+}
+
+body,
+html {
+    object-fit: contain;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url("https://images.pexels.com/photos/5441748/pexels-photo-5441748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+}
+
+.nav-item {
+    color: white;
+    font-size: 1.7rem;
+}
+
+.nav-item:hover {
+    color: brown;
+}
+
+li {
+    position: relative;
+    padding: 0 .5em 0 .5em;
+}
+
+#welcome-text {
+    position: relative;
+    font-size: 7em;
+    margin-top: 23%;
+}
+
+#welcome-text:hover {
+    color: greenyellow;
+    transition: .5s;
+}
+.navbar-brand{
+    position: relative;
+    width: 2em;
+}
+.aboutme {
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 23%;
+    margin-bottom: 15%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5));
+    width: 80%;
+    height: 60%;
+    align-items: center;
+    border-radius: 20px;
+}
+
+#about-me {
+    color: greenyellow;
+    position: relative;
+    font-size: 6em;
+    padding-top: 10%;
+}
+
+#about-me-para {
+    color: greenyellow;
+    position: relative;
+    font-size: 2rem;
+    padding-top: 2%;
+    word-break: keep-all;
+    word-spacing: 2px;
+}
+
+#downloadpic {
+    width: 10%;
+    height: 10%;
+    margin-bottom: 15%;
+}
+
+#downloadpic:hover {
+    color: greenyellow;
+    transition: .5s;
+}
+
+#downtext {
+    font-size: 3rem;
+}
+.projects{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-bottom: 15%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5));
+    width: 80%;
+    height: 95%;
+    align-items: center;
+    border-radius: 20px;
+}
+#projecttext{
+    font-size: 5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: greenyellow;
+}
+.carousel-item, img{
+    position: relative;
+    max-height: 65vh;
+}
+.contact{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    margin-top: 23%;
+    margin-bottom: 15%;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5));
+    width: 80%;
+    height: 60%;
+    align-items: center;
+    border-radius: 20px;
+}
+#contacttext{
+    font-size: 5rem;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    color: greenyellow;
+}
+#email{
+    color: white;
+    font-size: 3rem;
+}
+#email:hover{
+    color: greenyellow;
+    transition: .3s;
+}
+#phone{
+    color: white;
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+#phone:hover{
+    color: greenyellow;
+    transition: .3s;
+}
+#githubicon{
+    padding: 0 5% 5% 5%;
+    color: white;
+}
+#githubicon:hover{
+    color: greenyellow;
+    transition: .3s;
+}
+#linkedinicon{
+    padding: 0 5% 5% 5%;
+    color: white;
+}
+#linkedinicon:hover{
+    color: greenyellow;
+    transition: .3s;
+}
+#twittericon{
+    padding: 0 5% 5% 5%;
+    color: white;
+}
+#twittericon:hover{
+    color: greenyellow;
+    transition: .3s;
+}
+#behanceicon{
+    padding: 0 5% 5% 5%;
+    color: white; 
+}
+#behanceicon:hover{
+    color: greenyellow;
+    transition: .3s;
+}
+.iconss{
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+@media only screen and (max-width: 1440px) {  
+    #welcome-text{
+        font-size: 3em;
+        text-align: center;
+        top: 25vh;
+        padding-bottom: 15em;
+    }
+    .aboutme{
+        width: 100%;
+        height: auto;
+        padding-bottom: 3%;
+    }
+    #about-me{
+        font-size: 1.5em;
+        padding-top: 5%;
+    }
+    #about-me-para{
+        font-size: .9em;
+    }
+    #projecttext{
+        font-size: 2.2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    .projects{
+        width: 100%;
+        height: auto;
+        padding-bottom: 15%;
+    }
+    .contact{
+        width: 100%;
+        height: auto;
+        padding-bottom: 5rem;
+    }
+    #downtext{
+        font-size: 1.5rem;
+    }
+    #contacttext{
+        font-size: 2.2rem;
+        padding-top: 2rem;
+    }
+    #email{
+        font-size: 1.5rem;
+    }
+    #phone{
+        font-size: 1.5rem;
+        padding-bottom: 2%;
+    }
+    .iconss, svg{
+        width: 15%;
+    }
+}
